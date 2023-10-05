@@ -19,6 +19,8 @@ public class WebDriverSyncDemo {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         driver.get("https://selenium.dev");
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(CustomConditions.jQueryAJAXsCompleted());
 
         WebElement searchInput = waitForElementLocatedBy(driver, By.xpath(
                 "//span[@class='DocSearch-Button-Placeholder']"));
