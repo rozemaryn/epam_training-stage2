@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/test/java/first_test/WebDriverSeleniumDevTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/test/java/pageobject_model/page/with_abstract_page/YandexMarketHomePage.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/test/java/pageobject_model/test/WebDriverSeleniumDevTest.java" charset="UTF-8" />
   </component>
 </project>

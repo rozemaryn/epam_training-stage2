@@ -1,16 +1,12 @@
 package first_test;
 
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.slf4j.Logger;
 import org.testng.Assert;
-import org.testng.TestException;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 
 
@@ -34,7 +30,6 @@ public class WebDriverSeleniumDevTest {
     public void isCheapestLampUnder500Rubles() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-
 
         driver.get("https://market.yandex.ru/");
 
